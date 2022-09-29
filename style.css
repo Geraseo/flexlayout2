@@ -1,0 +1,68 @@
+* {
+        margin: 0;
+        box-sizing: border-box;
+
+}
+body {
+        width: 100vw;
+        height: 100vh;
+}
+
+header {
+        height: 15%;
+        background-color: lightblue;
+
+}
+.container {
+        background-color: lightgrey;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+.hero {
+        background: lightcoral;
+        width: 40%;
+        height: 30%;
+}
+.sidebar {
+        background-color: rgb(220, 119, 220);
+        width: 40%;
+        height: 70%;
+}
+.main{
+        background-color: lightpink;
+        width: 60%;
+        height: 70%;
+}
+.extracontent {
+        background-color: lightblue;
+        width: 60%;
+        height: 30%;
+}
+
+.container2 {
+        background-color: rgb(127, 146, 255);
+        height: 15%;
+        display: flex;
+        
+}
+.imgrelate {
+        background-color: aquamarine;
+        width: 60%;
+}
+.relatedposts {
+        width: 40%;
+        background-color: rgb(214, 230, 125);
+}
+footer {
+        height: 15%;
+        background-color: lightsalmon;
+}
+
+header, .hero, .main, .sidebar, .extracontent, .imgrelate, .relatedposts, footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+}
